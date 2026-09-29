@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.default{
+    width: 200px;
+    padding: 20px;
+    border: 5px solid rgb(214, 72, 101);
+    margin: 30px;
+    margin: auto;
+    
+}
+.border-box{
+    box-sizing: border-box;
+    width: 200px;
+    padding: 24px;
+    border: 5px solid rgb(214, 72, 101);
+    margin: 30px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 5px 10px lightgray;
+    
+}
+.sobmit-btn{
+    color: white;
+    background-color: blue;
+}
+.submit-btn{
+    color: white;
+    background-color: blue;
+}
+.submit-btn:hover{
+    background-color: crimson;
+}
+.sobmit-btn:hover{
+    background-color: crimson;
+    border-radius: 8px;
+}
