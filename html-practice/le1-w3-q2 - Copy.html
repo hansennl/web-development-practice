@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Han</title>
+</head>
+<body style="background-color: #007979;">
+    <div style="background-color: #FFE2AF; text-align: center; padding: 25px; border: 1px solid; width: 35%; margin: auto;">
+        <form action="#" method="post" style="background-color: #24B1B1; padding:20px; border: 1px solid;">
+            <h1> Student Profile </h1>
+
+            <label for="name">Full name: </label><br>
+            <input type="text" id="name" name="name" size="35" placeholder=""> <br>
+            <label for="email">Email: </label><br>
+            <input type="email" id="email" name="email" size="35" placeholder=""><br><br>
+             <label for="password">Password: </label><br>
+            <input type="password" id="password" name="password" size="35">
+            <h2>Sex</h2>
+            <input type="radio" id="male" name="gender" value="male">Male
+            <input type="radio" id="female" name="gender" value="female">Female<br><br>
+            <label for="age">Age: </label>
+            <input type="number" id="age" name="age" min="14" max="20" size="35"><br><br>
+            <label for="strand">Strand: </label><br>
+            <select id="strand" name="strand">
+                <option value="STEM">STEM</option>
+                <option value="ABM">ABM</option>
+                <option value="TVL">TVL</option>
+                <option value="HUMSS">HUMSS</option>
+            </select><br><br>
+            <label for="comments">bucket: </label><br>
+            <textarea id="comments" name="comments" rows="5" cols="30" placeholder="place your comments here.."></textarea><br>
+            <h2> Hobbies and Interests </h2>
+            <label><input type="checkbox" id="reading" name="hobby" value="Reading"> Reading</label>
+            <label><input type="checkbox" id="playing" name="hobby" value="Playing games"> Playing Games</label><br>
+            <label><input type="checkbox" id="writing" name="hobby" value="Writing"> Writing</label>
+            <label><input type="checkbox" id="watching" name="hobby" value="Watching Movies"> Watching Movies</label><br>
+            <br>
+
+            <input type="reset"> <input type="submit">
+        </form>
+    </div>
+</body>
+</html>
