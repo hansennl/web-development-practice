@@ -1,0 +1,28 @@
+body{
+    background-color: #85b4ff;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(47, 47, 209);
+    font-size: x-large;
+    text-align: center;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: large;
+     color: rgb(47, 47, 209);
+}
+mark{
+    color: rgb(47, 47, 209);
+    background-color:  #dce9fd;
+}
+b{
+     color: rgb(47, 47, 209);
+}
+i{
+    color: rgb(47, 47, 209);
+}
+hr{
+    background-color: black;
+}
