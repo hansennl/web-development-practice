@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(255, 255, 255);
+     font-family: 'Inter', sans-serif; color: hsl(215, 20%, 65%);
+      font-size: 1rem;
+      line-height: 1.5;
+      font-weight: 400;
+      text-align: center;
+}
+h1{
+    color: hex(#006199);
+     font-size: 2rem;
+     font-weight: 700;
+}
+.card{
+    padding: 24px;
+    margin-bottom: 16px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    background-color: rgb(172, 72, 92);
+}
+h2{
+    color: #006199;
+}
+p{
+    color: #006199;
+}
+blockquote{
+    color: #006199;
+}
