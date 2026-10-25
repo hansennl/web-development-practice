@@ -1,7 +1,7 @@
 from google import genai
 
 client = genai.Client(
-    api_key="AQ.Ab8RN6Iru5AVx5K6H9v5-wLgSPH6XTEbAQoJz_yUZP6BZ1K0Qw",
+    #api_key="api-key",
     vertexai=False,
     enterprise=False
 )
