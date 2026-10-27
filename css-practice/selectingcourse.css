@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: auto;
+}
+body{
+    background-color: oklab(92% 0.008 0.045);
+    color: oklab(17% 0.004 -0.021);
+}
+div{
+    margin-top: 200px;
+}
