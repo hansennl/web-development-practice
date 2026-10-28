@@ -4,7 +4,7 @@ score = 30;
 const maxScore = 50;
 //maxScore = 25;
 
-const textData = 'nigger';
+const textData = 'Person';
 const numberData = 3.14;
 const boolData = true;
 const nullData = null;
@@ -29,7 +29,7 @@ console.log (ex1);
 console.log (ex2);
 console.log (ex3);
 
-const productName = "shabu";
+const productName = "Books";
 const productPrice = 89.99;
 const inStock = true;
 
