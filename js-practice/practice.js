@@ -4,7 +4,7 @@ console.log ('hello + name');
 alert('hello!')
 
 let userResponse = prompt('what is your name?')
-let isSure = confirm('r u sure?')
+let isSure = confirm('are you sure?')
 
 console.log('User Entered: ', userResponse);
 console.log('User Choice: ', isSure);
