@@ -34,8 +34,8 @@ export default function App() {
 
       <h2>User Profiles</h2>
       <UserProfile 
-      name="dixonmyazz"
-      role="gay"
+      name="random guy"
+      role="senior developer"
       avatarURL="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSl4Wf7XGytsTz6Df4LoLp7xKPMIUUZuJmwxLj8kU9JpQ&s=10"
       />
       <UserProfile 
