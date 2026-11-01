@@ -4,8 +4,8 @@ const router = express.Router();
 router.get('/', (req, res) => {
   res.json({
     users: [
-      { id: 1, name: 'Cedrick', role: 'ICT Programmer' },
-      { id: 2, name: 'Hansen', role: 'Web Developer' }
+      { id: 1, name: 'Arkin', role: 'ICT Programmer' },
+      { id: 2, name: 'Hansen', role: 'Fullstack Developer' }
     ]
   });
 });
