@@ -2,7 +2,7 @@ let score = 20;
 score = 30;
 
 const maxScore = 50;
-//maxScore = 25;
+
 
 const textData = 'Person';
 const numberData = 3.14;
