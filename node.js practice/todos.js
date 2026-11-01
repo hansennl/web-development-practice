@@ -1,18 +1,15 @@
 const express = require('express');
 const router = express.Router();
 
-// In-memory array to store todo items
 let todos = [
   { id: 1, title: 'Learn Node.js', completed: true },
   { id: 2, title: 'Master Express Routing', completed: false }
 ];
 
-// 1. GET: Read all todos
 router.get('/', (req, res) => {
   res.json(todos);
 });
 
-// 2. GET: Read a single todo by id
 router.get('/:id', (req, res) => {
   const todoId = parseInt(req.params.id);
   const todo = todos.find(t => t.id === todoId);
@@ -24,7 +21,6 @@ router.get('/:id', (req, res) => {
   res.json(todo);
 });
 
-// 3. POST: Create a new todo
 router.post('/', (req, res) => {
   const { title } = req.body;
 
@@ -42,7 +38,6 @@ router.post('/', (req, res) => {
   res.status(201).json({ message: 'Todo created successfully', todo: newTodo });
 });
 
-// 4. PUT: Update an existing todo
 router.put('/:id', (req, res) => {
   const todoId = parseInt(req.params.id);
   const todoIndex = todos.findIndex(t => t.id === todoId);
@@ -58,7 +53,6 @@ router.put('/:id', (req, res) => {
   res.json({ message: 'Todo updated successfully', todo: todos[todoIndex] });
 });
 
-// 5. DELETE: Remove a todo
 router.delete('/:id', (req, res) => {
   const todoId = parseInt(req.params.id);
   const todoIndex = todos.findIndex(t => t.id === todoId);
