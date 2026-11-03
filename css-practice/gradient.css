@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+    
+}
+body{
+    background-color: #f7efe5;
+}
+.linear-gradient {
+    background: linear-gradient(to right, #382E39, #8D828A);
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.radial-gradient {
+    background: radial-gradient(circle,oklab(57% -0.024 -0.048), oklab(31% 0.003 -0.032));
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.conic-gradient {
+    background: conic-gradient(from 90deg, #9370DB,#DA70D6,#FF69B4, #FFFFE0,#98FB98);
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.repeating-linear-gradient {
+    background: repeating-linear-gradient(45deg,#6105e0, #a882ff 10px, #d8c6ff 10px, #f0f8ff 20px);
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.repeating-radial-gradient {
+    background: repeating-radial-gradient(circle, #f7efe5, #f7efe5 10px, #dbc8b6 10px, #dbc8b6 20px);
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.repeating-conic-gradient {
+    background: repeating-conic-gradient(from 90deg, oklab(93% 0.05 0.00),oklab(81% 0.13 -0.02) 10deg,oklab(67% 0.21 -0.04) 20deg, oklab(54% 0.24 -0.06) 30deg,oklab(38% 0.16 -0.03) 40deg);
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+img{
+    opacity: 0.5;
+    height: 300px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.opacity-color{
+    background-color: rgba(79, 40, 170, 0.5);
+    height: 400px;
+}
+.gojo{
+    opacity: 1;
+}
+p{
+    color: #6105e0;
+}
