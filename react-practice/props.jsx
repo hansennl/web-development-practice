@@ -49,7 +49,8 @@ export default function App() {
   The `children` prop is a special prop that is automatically passed to every React component. It represents any elements, HTML tags, or text nested *between* the opening and closing tags of that component when it is invoked.
 
   When would you use it?
-  You use the `children` prop when creating generic layout or wrapper components—such as modals, cards, containers, or panels—where you want the outer structure to stay identical, but the internal content needs to change dynamically every time you reuse the component wrapper.</p>
+  You use the `children` prop when creating generic layout or wrapper components—such as modals, cards, containers, or panels—where you want the outer structure to stay identical, but the internal content needs to change dynamically every time you reuse the component wrapper.
+  </p>
       </div>    
   );
 }
