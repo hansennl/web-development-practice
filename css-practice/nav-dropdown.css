@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: oklab(25% -0.015 -0.042);
+    color: oklab(94% 0.003 0.021);
+}
+
+header {
+    background-color: oklab(41% -0.021 -0.056);
+    padding: 15px 0;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px; 
+    list-style: none; 
+}
+
+a {
+    text-decoration: none;
+    color: oklab(94% 0.003 0.021);
+}
+
+/* Dropdown styling */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.drop-btn {
+    background-color: transparent; 
+    color: oklab(94% 0.003 0.021);
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    padding: 8px 12px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: oklab(41% -0.021 -0.056);
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 12px 16px;
+    text-align: center;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+nav ul li a {
+    display: block;
+    padding: 10px 16px;
+    text-decoration: none;
+    color: oklab(94% 0.003 0.021);
+    border-radius: 4px; 
+}
+
+nav ul li a:hover,
+.dropdown:hover .drop-btn {
+    background-color: oklab(32% -0.021 -0.056);
+}
