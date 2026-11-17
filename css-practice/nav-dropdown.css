@@ -29,7 +29,6 @@ a {
     color: oklab(94% 0.003 0.021);
 }
 
-/* Dropdown styling */
 .dropdown {
     position: relative;
     display: inline-block;
